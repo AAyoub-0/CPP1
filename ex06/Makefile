@@ -6,9 +6,11 @@
 #    By: aboumall <aboumall42@gmail.com>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/13 15:52:18 by aboumall          #+#    #+#              #
-#    Updated: 2025/07/09 16:50:49 by aboumall         ###   ########.fr        #
+#    Updated: 2025/09/29 15:26:27 by aboumall         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
+HEADERS = Harl.hpp
 
 TARGET = harlFilter
 
@@ -19,7 +21,7 @@ CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 SRC = Harl.cpp main.cpp
 OBJ = $(SRC:.cpp=.o)
 
-all: $(TARGET)
+all: $(TARGET) $(HEADERS)
 
 $(TARGET): $(OBJ)
 	$(CXX) $(OBJ) -o $(TARGET)
