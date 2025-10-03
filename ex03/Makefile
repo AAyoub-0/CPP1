@@ -6,11 +6,11 @@
 #    By: aboumall <aboumall42@gmail.com>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/13 15:52:18 by aboumall          #+#    #+#              #
-#    Updated: 2025/09/29 15:25:27 by aboumall         ###   ########.fr        #
+#    Updated: 2025/10/03 02:00:17 by aboumall         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-HEADERS = HumanA.hpp HumanB.hpp
+HEADERS = HumanA.hpp HumanB.hpp Weapon.hpp
 
 TARGET = unnecessaryviolence
 
